@@ -5,5 +5,5 @@ def divisible_by_2(my_list=[]):
         if my_list[x] % 2 == 0:
             new_l[x] = 1
         else:
-            new_[x] = 0
+            new_l[x] = 0
             return (new_l)
