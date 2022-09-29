@@ -7,7 +7,7 @@ if __name__ == "__main__":
     result_sub = a - b
     result_mul = a * b
     result_div = a / b
-    print("{:d} + {:d} = {:d}".format(a, b, result)
-          print("{:d} - {:d} = {:d}".format(a, b, result_sub)
-                print("{:d} * {:d} = {:d}".format(a, b, result_mul)
-                      print("{:d} / {:d} = {:d}".format(a, b, result_div)
+    print("{:d} + {:d} = {:d}".format(a, b, result))
+    print("{:d} - {:d} = {:d}".format(a, b, result_sub))
+    print("{:d} * {:d} = {:d}".format(a, b, result_mul))
+    print("{:d} / {:d} = {:d}".format(a, b, result_div))
