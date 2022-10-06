@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import sys
+    from sys import argv
     add = 0
-    for arg in sys.argv:
-        if arg != sys.argv[0]:
-            add += int(arg)
-            print("{:d}".format(add))
+    for s in argv[1:]:
+        add += int(s)
+        print("{:d}".format(add))
