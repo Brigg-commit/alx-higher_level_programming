@@ -8,4 +8,4 @@ def print_matrix_integer(matrix=[[]]):
                     break
                 print("{:d}".format(i[j]), end=" ")
             else:
-                print("")
+                print()
