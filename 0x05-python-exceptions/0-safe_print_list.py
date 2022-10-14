@@ -6,14 +6,15 @@ def safe_print_list(my_list=[], x=0):
         x (int): The number of elements of my_list to print.
         Returns:
         The number of elements printed.
-        """
+    """
     count = 0
     while count < x:
-        print("{:d}".format(my_list[coun]), end="")
-        count += 1
-        print()
-        return count
-    except IndexError:
-        print()
-        return count
-    pass
+        try:
+            print("{:d}".format(my_list[count]), end="")
+            count += 1
+            print()
+            return count
+        except IndexError:
+            print()
+            return count
+        pass
