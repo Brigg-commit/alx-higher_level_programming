@@ -4,17 +4,19 @@ TEST FILE FOR 3-say_my_name.py
 import module doc
 -----------------
 
-This modules defines a function ``say_my_name(first_name, last_name="")``.
+This modules import a function ``say_my_name(first_name, last_name="")``.
 
 import function doc
 -------------------
 
 say_my_name = __import__('3-say_my_name').say_my_name
 
+
 Test 1
     >>> say_my_name("John", "Smith")
     My name is John Smith
     ...
+
 
 Test 2
     >>> say_my_name("Angela")
@@ -22,18 +24,59 @@ Test 2
     ...
 
 Test 3
-    >>>say_my_name({"LeBron": 6, "James": 23}, 7.7)
-    Traceback (most recent call last):
-    TypeError: first_name must be a string
+    >>> say_my_name("Walter","White")
+    My name is Walter White
     ...
 
 Test 4
-     >>>say_name(None)
-     Traceback (most recent call last):
-     TypeError: first_name must be a string
-     ...
+    >>> say_my_name("Bob")
+    My name is Bob
+    ...
 
 Test 5
-     >>>>say_name("Lee", 8)
+    >>> >>> say_my_name("")
+    My name is                               ...
+    
+Test 6
+    >>> say_my_name(4, "Angela")
+    Traceback (most recent call last)
+    ...
+    TypeError: first_name must be a string
+
+Test 7
+    >>> say_my_name("Peter", 59)
+    Traceback (most recent call last):
+    ...
+    TypeError: last_name must be a string
+
+Test 8
+    >>> say_my_name({"LeBron": 6, "James": 23}, 7.7)
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
+
+Test 9
+     >>> say_my_name(None)
      Traceback (most recent call last):
-     TypeError: last_name must be a string
+     ...
+     TypeError: first_name must be a string
+     
+Test 10
+    >>> say_my_name()
+	Traceback (most recent call last):
+	...
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+Test 11
+    >>> say_my_name("Fred", None)
+	Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+Test 12
+    >>> say_my_name(None, "Fred")
+	Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+	
+    

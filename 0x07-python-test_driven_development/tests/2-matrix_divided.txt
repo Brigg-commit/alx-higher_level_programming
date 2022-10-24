@@ -1,5 +1,4 @@
-
-
+TEST FOR 2-matrix_divided.py
 ==============================
 How to Use 2-matrix_divided.py
 ==============================
@@ -164,4 +163,4 @@ is raised.
 
     >>> print(matrix_divided(matrix, 0))
     Traceback (most recent call last):
-    ZeroDivisionError
+    ZeroDivisionError: division by zero
