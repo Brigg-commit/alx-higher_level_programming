@@ -14,12 +14,12 @@ Return the multiplication of two matrices.  Args:
 Usage
 =====
 
-``lazy_matrix_mul(...)`` returns a new matrix representing the multiplication
+``matrix_mul(...)`` returns a new matrix representing the multiplication
 of ``m_a`` by ``m_b``.
 
 ::
 
-    >>> lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
+    >>> matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
     >>> m_a = [
     ... [1, 2],
     ... [3, 4],
