@@ -1,8 +1,5 @@
-
 #!/usr/bin/python3
-"""Student module.
-
-Contains a Student class and some methods"""
+'#Define Student module'
 
 
 class Student():
