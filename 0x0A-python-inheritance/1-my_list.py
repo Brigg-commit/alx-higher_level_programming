@@ -5,7 +5,7 @@
 class MyList(list):
     """Implements sorted printing for the built-in list class."""
     def __init__(self):
-        """initialize the object"""
+        """initializes the object"""
         super().__init__()
 
     def print_sorted(self):
