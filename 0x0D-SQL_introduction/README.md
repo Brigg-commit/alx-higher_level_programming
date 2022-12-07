@@ -1,9 +1,12 @@
 # 0x0D. SQL - Introduction project
 
-Tasks 📃
-0. List databases
+# Tasks 📃
+<ul>
+<li><strong>0.List databases</strong></li>
+<a href ="
 
-0-list_databases.sql: MySQL script that lists all databases.
+0-list_databases.sql">0-list_databases.sql</a>: MySQL script that lists all databases.</ul>
+
 1. Create a database
 
 1-create_database.sql: MySQL script that creates the database hbtn_0c_0.
