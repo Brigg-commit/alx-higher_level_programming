@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-""" 
-iScript that is similar to model_state.py named model_city.py that contains the class definition of a City.
+"""
+This script prints all City objects
+from the database `hbtn_0e_14_usa`.
 """
 
 from sys import argv
@@ -15,8 +16,7 @@ if __name__ == "__main__":
     from the database.
     """
 
-   
-   db_uri = 'mysql+mysqldb://{}:{}@localhost:3306/{}'.format(
+    db_uri = 'mysql+mysqldb://{}:{}@localhost:3306/{}'.format(
         argv[1], argv[2], argv[3])
     engine = create_engine(db_uri)
     Session = sessionmaker(bind=engine)

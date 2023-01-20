@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-""" prints all  State object that contains aletter 'a' from the database hbtn_0e_6_usa
 """
+This python script that use sqlalchemy to query a database and list
+all State objects containing the letter `a` from `hbtn_0e_6_usa`.
+"""
+
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import create_engine

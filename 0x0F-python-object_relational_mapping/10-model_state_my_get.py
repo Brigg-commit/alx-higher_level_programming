@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-""" prints the State object with the name passed as argument from the database
 """
-
+The script prints the id of the state name passed as argument to the script
+from the database `hbtn_0e_6_usa` using sqlalchemy ORM.
+"""
 
 from sys import argv
 from model_state import Base, State
