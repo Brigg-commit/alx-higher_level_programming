@@ -21,7 +21,7 @@ if __name__ == '__main__':
         cur.execute("""
             SELECT
                 cities.id, cities.name
-            FROMi
+            FROM
                 cities
             JOIN
                 states
